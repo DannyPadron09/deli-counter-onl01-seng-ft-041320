@@ -19,8 +19,8 @@ def take_a_number(line, new_person)
   puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
 
-def now_serving(katz_deli)
-  if katz_deli.length == 0
+def now_serving(line)
+  if line.length == 0
     "There are no people in line."
   end
 end
