@@ -1,9 +1,9 @@
 
 
-def line(array)
-  if array.length == 0
+def line(katz_deli)
+  if katz_deli.length == 0
     "The line is currently empty"
-  elsif array.length > 0
-    "You are #{array.length} in line"
+  elsif katz_deli.length > 0
+    "You are #{katz_deli.length} in line"
   end
 end
