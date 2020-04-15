@@ -24,8 +24,3 @@ def now_serving(katz_deli)
     "There are no people in line."
   end
 end
-
-
-
-
-    
