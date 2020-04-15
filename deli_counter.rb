@@ -14,7 +14,7 @@ def line(array)
   end
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli << "#{name}"
-  "Welcome, #{name}. You are number #{katz_deli.length} in line."
+def take_a_number(line, new_customer)
+  line << "#{new_customer}"
+  "Welcome, #{new_customer}. You are number #{line.length} in line."
 end
