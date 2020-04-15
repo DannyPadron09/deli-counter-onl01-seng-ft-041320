@@ -9,7 +9,7 @@ def line(katz_deli)
       counter += 1
     end
     "The line is currently: #{current_line.join(" ")}"
-  else 
+  else
     "The line is currently empty."
   end
 end
